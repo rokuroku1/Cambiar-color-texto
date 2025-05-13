@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Página de Prueba</title>
+</head>
+<body>
+  <h1 id="titulo">Este es el título original</h1>
+  <p class="parrafo">Este es un párrafo con texto genérico.</p>
+
+  <script>
+    // Cambiar el texto del h1 usando getElementById
+    const titulo = document.getElementById("titulo");
+    titulo.textContent = "¡Título modificado con JavaScript!";
+
+    // Cambiar el color del párrafo a rojo usando querySelector y style
+    const parrafo = document.querySelector(".parrafo");
+    parrafo.style.color = "red";
+  </script>
+</body>
+</html>
